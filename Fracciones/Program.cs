@@ -19,7 +19,7 @@ namespace Fracciones
             int den = int.Parse(Console.ReadLine());
 
             int num2 = (ent * den) + num;
-
+            
 
             Console.WriteLine("Su nueva fraccion es " + num2 + "/" + den);
             Console.ReadLine();
