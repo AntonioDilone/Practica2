@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fracciones", "Fracciones\Fracciones.csproj", "{101C3214-FFB9-414A-8D80-039708082607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numeros primos", "Numeros primos\Numeros primos.csproj", "{CEE977EA-32A1-4F8F-942F-6CE3E36877B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{101C3214-FFB9-414A-8D80-039708082607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101C3214-FFB9-414A-8D80-039708082607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101C3214-FFB9-414A-8D80-039708082607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101C3214-FFB9-414A-8D80-039708082607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE977EA-32A1-4F8F-942F-6CE3E36877B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE977EA-32A1-4F8F-942F-6CE3E36877B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE977EA-32A1-4F8F-942F-6CE3E36877B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE977EA-32A1-4F8F-942F-6CE3E36877B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94B375E6-F0CC-42D1-AE4D-2279FDFE525E}
+	EndGlobalSection
+EndGlobal
