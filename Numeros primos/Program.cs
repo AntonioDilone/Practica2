@@ -16,7 +16,7 @@ namespace Numeros_primos
 
             for (int i = 0; i < cant; i++)
             {
-                num = Math
+                /*num = Math*/
 
 
                 Console.WriteLine();
