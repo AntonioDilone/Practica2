@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromo", "Palindromo\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalabraInvertida", "PalabraInvertida\PalabraInvertida.csproj", "{6AC145DD-2348-4487-B497-B6422119E50C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AñoBiciesto", "AñoBiciesto\AñoBiciesto.csproj", "{0D8ACD11-8652-4643-95B9-48EB7BBAA462}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6AC145DD-2348-4487-B497-B6422119E50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AC145DD-2348-4487-B497-B6422119E50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AC145DD-2348-4487-B497-B6422119E50C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D8ACD11-8652-4643-95B9-48EB7BBAA462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8ACD11-8652-4643-95B9-48EB7BBAA462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8ACD11-8652-4643-95B9-48EB7BBAA462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8ACD11-8652-4643-95B9-48EB7BBAA462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
