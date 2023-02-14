@@ -21,7 +21,8 @@ namespace MCD_y_MCM
             int num2 = int.Parse(Console.ReadLine());
 
             int result = 0;
-            int result2= 0;
+            int nume1= num1;
+            int nume2= num2;
 
             switch (opcion)
             {
@@ -29,7 +30,7 @@ namespace MCD_y_MCM
                     while (num2 != 0) {
                         result = num2;
                         num2 = num1 % num2;
-                        num1= result;
+                        num1 = result;
                     }
                     Console.WriteLine("El MCD entre estos numeros es " +result);
                     break;
@@ -37,10 +38,10 @@ namespace MCD_y_MCM
                     while (num2 != 0) {
                         result = num2;
                         num2 = num1 % num2;
-                        num1= result;
+                        num1 = result;
                     }
-                    result2 = (num1/result) * num2;
-                    Console.WriteLine("El MCM entre estos numeros es " +result2);
+                    result = (nume1/result) * nume2;
+                    Console.WriteLine("El MCM entre estos numeros es " +result);
                     break;
             }
             
