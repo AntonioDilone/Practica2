@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numeros primos", "Numeros p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCD y MCM", "MCD y MCM\MCD y MCM.csproj", "{429A9BDB-B3AD-4D97-9181-8FD8B042F45E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarWash", "CarWash\CarWash.csproj", "{437CD3D5-C6CC-4356-9655-A0A683FDA4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suma y resta de cubos", "Suma y resta de cubos\Suma y resta de cubos.csproj", "{2EAC3E8C-ADE5-4FA1-8138-FB8736F23F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{429A9BDB-B3AD-4D97-9181-8FD8B042F45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{429A9BDB-B3AD-4D97-9181-8FD8B042F45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{429A9BDB-B3AD-4D97-9181-8FD8B042F45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437CD3D5-C6CC-4356-9655-A0A683FDA4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437CD3D5-C6CC-4356-9655-A0A683FDA4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437CD3D5-C6CC-4356-9655-A0A683FDA4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437CD3D5-C6CC-4356-9655-A0A683FDA4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAC3E8C-ADE5-4FA1-8138-FB8736F23F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAC3E8C-ADE5-4FA1-8138-FB8736F23F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAC3E8C-ADE5-4FA1-8138-FB8736F23F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAC3E8C-ADE5-4FA1-8138-FB8736F23F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

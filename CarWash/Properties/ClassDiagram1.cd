@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CarWash.Carro">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAAAUAAgAAAAAAAAAAAAAAACAAAAIAIAJAAA=</HashCode>
+      <FileName>Carro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Cliente">
+    <Position X="14.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAIACABAgAAAAAAAAAAACAAAIAAAAIAAI=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Empleado">
+    <Position X="17" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAIACAAAAAAAAAAAAAAgAAAAJAAAAAAEY=</HashCode>
+      <FileName>Empleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.CarWash">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAIACAQCAAACAAAAQAAAAAAAAAAABAIAI=</HashCode>
+      <FileName>CarWash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Orden">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAEAAAQQQQAAAAAAAAAAAoAAAAAAEIAAAAAAAAAA=</HashCode>
+      <FileName>Orden.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Pago">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQABAAAAiQgAAAAAgAAAAABAAAAAAAAAgAA=</HashCode>
+      <FileName>Pago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Inventario">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAAQCACAAAAABAAAAAAAEAAAIAAACAAAAAA=</HashCode>
+      <FileName>Inventario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Suplidor">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgIAAAAAKACAAAAAABCAAAAAAAAAIAAAAAAAAAI=</HashCode>
+      <FileName>Suplidor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Horario">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAAAAQAAQAAAAAACAAAAAAAIAAABAAAAAEAIAAAAAA=</HashCode>
+      <FileName>Horario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Lavados">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAACACAAQAAAAAAAAEAABACAAAACAQAA=</HashCode>
+      <FileName>Lavados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Servicios">
+    <Position X="1.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Servicios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.MetodosPago">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MetodosPago.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarWash.Productos">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Productos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CarWash.IPagable">
+    <Position X="6.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQIAA=</HashCode>
+      <FileName>IPagable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lavados" />
+      <Property Name="Orden" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="CarWash.IServicio">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>IServicio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lavados" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="CarWash.IProductoInventario">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>IProductoInventario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Inventario" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="CarWash.IDescuento">
+    <Position X="12.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>IDescuento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pago" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="CarWash.IBono">
+    <Position X="19" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBono.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Empleado" />
+    </ShowAsAssociation>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
