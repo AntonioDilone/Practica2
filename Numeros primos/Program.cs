@@ -11,16 +11,25 @@ namespace Numeros_primos
         static void Main(string[] args)
         {
             Console.WriteLine("Programa que calcula una lista de numeros primos");
-            Console.WriteLine("Cantidad de numero primos que quiere visualizar");
-            int cant = int.Parse(Console.ReadLine());
+            bool Prime = true;
 
-            for (int i = 0; i < cant; i++)
+            for (int a = 2; a <= 100; a++)
             {
-                /*num = Math*/
-
-
-                Console.WriteLine();
+                for (int b = 2; b <= 100; b++)
+                {
+                    if (a != b && a % b == 0)
+                    {
+                        Prime = false;
+                        break;
+                    }
+                }
+                if (Prime)
+                {
+                    Console.Write("\t" + a);
+                }
+                Prime = true;
             }
+            Console.ReadKey();
         }
     }
 }
