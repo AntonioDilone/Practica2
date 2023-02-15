@@ -28,7 +28,7 @@ namespace Palindromo
             {
                 Console.WriteLine("La palabra no es un palindromo");
             }
-
+            Console.ReadLine();
         }
     }
 }
