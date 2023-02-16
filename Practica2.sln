@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanoiTower", "HanoiTower\Ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semanas", "Semanas\Semanas.csproj", "{C1EA0F9E-39F5-4377-808A-09A3145EF8FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestamoLibros", "PrestamoLibros\PrestamoLibros.csproj", "{62A28F08-EFAB-4B16-BC28-9BC9126EC829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tienda", "Tienda\Tienda.csproj", "{6F01D7B7-0D95-4C7E-A870-6CF7AF55900A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{C1EA0F9E-39F5-4377-808A-09A3145EF8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1EA0F9E-39F5-4377-808A-09A3145EF8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1EA0F9E-39F5-4377-808A-09A3145EF8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A28F08-EFAB-4B16-BC28-9BC9126EC829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A28F08-EFAB-4B16-BC28-9BC9126EC829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A28F08-EFAB-4B16-BC28-9BC9126EC829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A28F08-EFAB-4B16-BC28-9BC9126EC829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F01D7B7-0D95-4C7E-A870-6CF7AF55900A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F01D7B7-0D95-4C7E-A870-6CF7AF55900A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F01D7B7-0D95-4C7E-A870-6CF7AF55900A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F01D7B7-0D95-4C7E-A870-6CF7AF55900A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
